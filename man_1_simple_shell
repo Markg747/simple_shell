@@ -1,0 +1,44 @@
+.TH man "24th April 2023" "simple_shell man page"
+
+.SH NAME
+.B simple_shell
+simple_shell - takes command from user input into prompt
+
+.SH SYNOPSIS
+.B ./shell
+
+.SH DESCRIPTION
+is a command language interpreter
+that executes commands read from the standard input or from a file.
+
+.SH OPTIONS
+Options are specific to and interpreted by the program that the command calls. By convention, options are separate arguments that follow the name of the command
+
+.SH COMMANDS
+cp: copy a file to another place.
+rm: Delete files
+sh, bash: Interpreters of commands.
+ls: Shows the contents of a folder.
+mkdir: Create a folder.
+rmdir: Delete a folder
+sleep: "Sleep" system during the seconds you indicate.
+touch: create a file.
+cat: Shows the contents of a file.
+echo: shows the content of what you indicate.
+kernelversion: shows the kernel version
+chgrp: Change a file group.
+kill: "Kill" a process.
+pwd: Shows the path of the folder where we are.
+chmod: Change the permissions of a file.
+ln: Create a link between files or folders.
+mv: Move a file.
+chown: Change the user of a file.
+
+.SH SEE ALSO
+useradd(8), passwd(5), nuseradd.debian(8) 
+.SH BUGS
+No known bugs.
+
+.SH AUTHOR
+Jonah Asante <iresgh1@gmail.com>
+Mark Kamau <markgitaka@gmail.com>
